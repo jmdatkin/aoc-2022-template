@@ -1,5 +1,5 @@
 # aoc-2022-template
-Puzzle starter code for the [Advent of Code 2022](https://adventofcode.com/2022/)
+Puzzle starter code for the [Advent of Code 2022](https://adventofcode.com/2022/).
 
 This template is meant to simplify the process of extracting usable values from the text input provided by Advent of Code and similar competitive coding sites.
 
@@ -55,3 +55,5 @@ This callback function parses a line of input into a 2D array holding pairs of v
     ...
 ]
 ```
+
+Enjoy, and happy coding! 😎
