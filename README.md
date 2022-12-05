@@ -1,7 +1,7 @@
 # Advent of Code 2022 Starter Template
 Puzzle starter code for the [Advent of Code 2022](https://adventofcode.com/2022/).
 
-This template is meant to simplify the process of extracting usable values from the text input provided by Advent of Code and similar competitive coding sites.
+This template is meant to simplify the process of parsing values from the text input provided by Advent of Code and similar competitive coding sites.
 
 ## Usage
 
