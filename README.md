@@ -7,7 +7,9 @@ This template is meant to simplify the process of extracting usable values from 
 
 The `lines` function contained in the `input` module parses the lines of a text file and applies a custom mapping function:
 
-python`def lines(filename, cb)`
+```python
+def lines(filename, cb)
+```
 
 The first parameter specifies a file path to read from.
 The second parameter targets a function which will receive as its first parameter each successive line of input, and which returns a mapped value derived from the text input.
@@ -35,14 +37,14 @@ Consider an input formatted as following, where we want to extract the values:
 ```
 
 A useful callback function might be:
-python```
+```python
 def cb(line):
     return [k for k in [j.split('-') for j in line.split(',')]]
 ```
 
 This callback function parses a line of input into a 2D array holding pairs of values:
 
-python```
+```python
 [
     [
         [82,82], [8,83]
